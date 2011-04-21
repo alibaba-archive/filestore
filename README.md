@@ -1,4 +1,4 @@
-# A File Session Store for connect.session
+# A File Store,  could use in connect.session
 
 Implement all the method for connect.session
 
