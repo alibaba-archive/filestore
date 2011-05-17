@@ -1,7 +1,7 @@
 {
   "name": "filestore",
   "description": "A File Store,  could use in connect.session",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/fengmk2/filestore",
   "repository": {
     "type": "git",
