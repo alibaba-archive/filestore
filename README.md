@@ -8,6 +8,8 @@ Every session store _must_ implement the following methods
 - `.set(sid, session, callback)`
 - `.destroy(sid, callback)`
 
+_must_ Inherit from `connect.session.Store`.
+
 Recommended methods include, but are not limited to:
 
 - `.length(callback)`
@@ -18,3 +20,4 @@ Recommended methods include, but are not limited to:
     var FileStore = require('filestore').FileStore;
     var filedir = __dirname + '/.sessions';
     app.use(express.session({secret: 'A secret', store: new FileStore(filedir)}));
+
