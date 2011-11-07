@@ -17,7 +17,7 @@ Recommended methods include, but are not limited to:
 
 ## How to use
 
-    var FileStore = require('filestore').FileStore;
+    var FileStore = require('filestore')(express);
     var filedir = __dirname + '/.sessions';
     app.use(express.session({secret: 'A secret', store: new FileStore(filedir)}));
 
