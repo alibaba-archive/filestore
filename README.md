@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/fengmk2/filestore.png)](http://travis-ci.org/fengmk2/filestore)
 # A File Store,  could use in connect.session
 
 Implement all the method for connect.session
